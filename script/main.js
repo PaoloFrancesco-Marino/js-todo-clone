@@ -6,7 +6,7 @@ $(document).ready(function () {
 
 
 // sorgente dati 
-var todoItems = ['fare la spesa', 'pagare luce'];
+var todoItems = ['Buy Travel Book', 'Tomatoes'];
 
 //refs todo-list
 var list = $('.todo-list'); //lista to do
