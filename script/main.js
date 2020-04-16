@@ -23,6 +23,7 @@ for (var i = 0; i < todoItems.length; i++) {
 }
 
 // rimuovo il todo cliccando delete
+
 $('.todo-list').on('click', 'li i:last-child', function() {
     $(this).parent().remove()
 });
@@ -32,7 +33,10 @@ var lineThrough = $('.todo-element');
 
 // checked todo
 $('.todo-list').on('click', 'li', function() {
+    $(this).children('.icona').removeClass('far fa-circle');
+    $(this).children('.icona').toggleClass('fas fa-check-circle');
     $(this).toggleClass('check');
+    
 });
 
 

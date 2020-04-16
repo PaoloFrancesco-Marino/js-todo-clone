@@ -74,9 +74,7 @@ body {
 }
 
 .check {
-    display: block;
     text-decoration: line-through;
-    font-weight: 400;
 }
 
 
